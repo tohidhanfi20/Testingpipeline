@@ -1,0 +1,9 @@
+trigger:
+- main
+
+pool:
+  name: LocalMachinePool  # Replace with the pool where your agent is added
+
+steps:
+- script: echo "Agent is working!"
+  displayName: "Test Agent"
